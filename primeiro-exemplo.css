@@ -10,6 +10,13 @@ img{
 .container-grid{
     /* transformando em grid */
     display: grid;
+    max-width: 400px;
+    margin: 0 auto;
+    grid-template-columns: repeat(3, 1fr);
+
+
+
+
 
     /* declarar quantidade de colunas  */
     /* grid-template-columns: 100px 100px; */
@@ -27,6 +34,6 @@ img{
     /* tamanho minimo e maximo com auto-fit */
     /* grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); */
 
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    
     
 }
