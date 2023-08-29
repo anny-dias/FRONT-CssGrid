@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img{
+    width: 100%;
+}
+
+.container-grid{
+    display: grid;
+    grid-template-columns: 250px 250px;
+    gap: 20px;
+
+    grid-template-areas: 
+        "header header"     /* nomes iguais para pegar a linha inteira */
+        "meio meio2"        /* duas imagens */
+        "meiob meiob"       /* nomes iguais para pegar a linha inteira */
+        "footer footer"     /* nomes iguais para pegar a linha inteira */
+    ;
+}
+
+.img-1{
+    grid-area: header;
+}
+
+.img-2{
+    grid-area: footer;
+}
+
+.img-3{
+    grid-area: meiob;
+}
+
+
+
+
+/* .img-1{
+    grid-column: 1/3;
+} */
+
+
+
